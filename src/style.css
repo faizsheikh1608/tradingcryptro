@@ -1,0 +1,55 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+  margin-inline: 150px;
+}
+
+.search--bar > input {
+  width: 670px;
+  height: 40px;
+  border: 1px solid white;
+}
+
+.btn > button {
+  margin-inline: 30px;
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+img {
+  width: 40px;
+  margin: 0px;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}

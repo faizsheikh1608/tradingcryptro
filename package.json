@@ -1,0 +1,28 @@
+{
+  "name": "pro",
+  "version": "1.0.0",
+  "description": "It's a Project",
+  "main": "src/app.js",
+  "homepage": "https://github.com/faizsheikh1608/tradingcryptro.git",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "12324"
+  ],
+  "author": "faiz",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "process": "^0.11.10"
+  }
+}
